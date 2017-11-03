@@ -1,9 +1,14 @@
 import React from 'react'
 
 export default class Layout extends React.Component{
-    render(){
+    constructor() {
+        super()
+        this.name = 'will';
+    }
+    render()
+        {
         return(
-            <h1>Hello</h1>
+            <h1>{this.name}</h1>
         )
     }
 }
