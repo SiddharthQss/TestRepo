@@ -10,7 +10,7 @@ import  Todos from './pages/Todo'
 import registerServiceWorker from './registerServiceWorker';
 import Header from "./Component/Header";
 import TestRouting from './Routing/Routing'
+import Recom from './Recompose/Recompose'
 
-
-ReactDOM.render(<Todos />
+ReactDOM.render(<Recom />
     ,document.getElementById('root'));
